@@ -27,9 +27,9 @@ ${c.bold('Options for `init`')}
   --target <dir>      Target directory (defaults to current working directory)
 
 ${c.bold('Examples')}
-  npx bif init
-  npx bif init --target ./my-project
-  npx bif init --dry-run
+  npx bif-cli init
+  npx bif-cli init --target ./my-project
+  npx bif-cli init --dry-run
 `;
 
 export async function run(argv) {

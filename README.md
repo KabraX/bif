@@ -24,8 +24,10 @@ LLM coding assistants forget everything between sessions. You waste the first te
 In your project's root:
 
 ```bash
-npx bif init
+npx bif-cli init
 ```
+
+> The package is published as **`bif-cli`** on npm; the installed command is **`bif`**. If you'd rather install it once, run `npm i -g bif-cli` and from then on just use `bif init`.
 
 That copies the memory scaffold into `./.claude/` and `./memory/`. Then open the project with Claude Code and run:
 

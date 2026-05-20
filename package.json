@@ -1,5 +1,5 @@
 {
-  "name": "bif",
+  "name": "bif-cli",
   "version": "0.1.0",
   "description": "Before I Forget — drop-in persistent memory system for AI coding agents.",
   "keywords": [
