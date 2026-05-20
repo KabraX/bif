@@ -1,0 +1,42 @@
+{
+  "name": "bif",
+  "version": "0.1.0",
+  "description": "Before I Forget — drop-in persistent memory system for AI coding agents.",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "ai",
+    "memory",
+    "agents",
+    "persistent-memory",
+    "session-log",
+    "bif"
+  ],
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "bif": "./bin/bif.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "template",
+    "systems",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "node --test test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KabraX/bif.git"
+  },
+  "homepage": "https://github.com/KabraX/bif#readme",
+  "bugs": {
+    "url": "https://github.com/KabraX/bif/issues"
+  }
+}
